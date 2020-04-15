@@ -17,6 +17,7 @@
 
 | ![three](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/2020-04-14%2022.23.42.jpg) |
 | --------------------------------------------------------------------------------------------------- |
+
 The plants are like all the other living organisms, they take care of themselves and sometimes dry while unable to help themselves. Someone external has to look after those like a gardener does. This project is built using Raspberry Pi.
 
 The device collects the sensor value from all the inputs and updates the row of  `database-groot.csv` file for every 30 seconds. Alternatively, runs the motions detection code for every 2 seconds, any motion identified will be emailed to the authorised person. All the data is logged to to the file `database-groot.csv` and is emailed before the execution is stopped. 
