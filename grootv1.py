@@ -41,8 +41,8 @@ mcpval = mcp.MCP3008(clk=11, cs=8, miso=9, mosi=10)
 dht = Adafruit_DHT.DHT11  # Importing DHT11 library from Addafruit Library
 
 # Setting the mail client
-fromaddr = "iamgrooty20@gmail.com"
-toaddr = "iamgrooty20@gmail.com"
+fromaddr = "frommailaddress@exapmle.com"
+toaddr = "toaddress@example.com"
 msg = MIMEMultipart()   # instance of MIMEMultipart 
 msg['From'] = fromaddr   # storing the senders email address 
 msg['To'] = toaddr   # storing the receivers email address 
@@ -146,7 +146,7 @@ def sendmail(subject, file_name1, path_name, body_message):
     msg.attach(p)     # attach the instance 'p' to instance 'msg'
     s = smtplib.SMTP('smtp.gmail.com', 587)     # creates SMTP session 
     s.starttls()     # start TLS for security 
-    s.login(fromaddr, "anemone20")   # Authentication 
+    s.login(fromaddr, "password")   # Authentication 
     text = msg.as_string()  # Converts the Multipart msg into a string
     s.sendmail(fromaddr, toaddr, text)   # sending the mail 
     print("[INFO] Mail Sent\n[MSG] Mailed to {}\n[MSG]Subject: {}" .format(toaddr,subject))
