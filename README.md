@@ -46,7 +46,8 @@ The device collects the sensor value from all the inputs and updates the row of 
 
 ## [Connecting Raspberry Pi](#contents)
 
-![circuit connections](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/circuit-connections.png)
+| ![circuit connections](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/circuit-connections.png) |
+| --------------------------------------------------------------------------------------------------------------- |
 
 | ![one](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/2020-04-14%2021.41.21.jpg)     | ![two](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/2020-04-14%2022.22.59.jpg)  | ![soil](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/2020-04-14%2022.24.35.jpg)  |
 | ----------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -99,3 +100,5 @@ Now to run the code open the terminal go through the following steps:
     python grootv1.py
 
 ![snapshot of the output](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/snap-code-run.png)
+
+---
