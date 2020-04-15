@@ -1,9 +1,11 @@
 # Tracking Essential Features Affecting The Plants Using Raspberry-Pi
 
-## Contents:
- - [Introduction](#introduction)
+--- 
+
+# Contents:
+
 - [Tracking Essential Features Affecting The Plants Using Raspberry-Pi](#tracking-essential-features-affecting-the-plants-using-raspberry-pi)
-  - [Contents:](#contents)
+- [Contents:](#contents)
   - [Introduction](#introduction)
   - [Connecting Raspberry Pi](#connecting-raspberry-pi)
   - [Installing the Libraries](#installing-the-libraries)
@@ -42,7 +44,7 @@ The device collects the sensor value from all the inputs and updates the row of 
 3. VNC Viewer
 
 
-## Connecting Raspberry Pi
+## [Connecting Raspberry Pi](#contents)
 
 ![circuit connections](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/circuit-connections.png alt ="circuit connections")
 
@@ -91,7 +93,7 @@ using `pip` install
 
 ## [The Code](#contents)
 
-![](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/snap-code-run.png alt = "snapshot of the output")
+![snapshot of the output](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/snap-code-run.png)
 
 Now to run the code open the terminal go through the following steps:
 
