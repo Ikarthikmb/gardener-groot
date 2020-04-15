@@ -1,22 +1,28 @@
 # Tracking Essential Features Affecting The Plants Using Raspberry-Pi
 
-> Contents:
-> - Introduction
-> - Connecting Raspberry Pi
-> - Installing Libraries
-> - The Code 
+## Contents:
+ - [Introduction](#introduction)
+- [Tracking Essential Features Affecting The Plants Using Raspberry-Pi](#tracking-essential-features-affecting-the-plants-using-raspberry-pi)
+  - [Contents:](#contents)
+  - [Introduction](#introduction)
+  - [Connecting Raspberry Pi](#connecting-raspberry-pi)
+  - [Installing the Libraries](#installing-the-libraries)
+  - [The Code](#the-code)
 
 ---
 
-## Introduction
+## [Introduction](#contents)
 
+| ![three](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/2020-04-14%2022.23.42.jpg) |
+| --------------------------------------------------------------------------------------------------- |
 The plants are like all the other living organisms, they take care of themselves and sometimes dry while unable to help themselves. Someone external has to look after those like a gardener does. This project is built using Raspberry Pi.
 
 The device collects the sensor value from all the inputs and updates the row of  `database-groot.csv` file for every 30 seconds. Alternatively, runs the motions detection code for every 2 seconds, any motion identified will be emailed to the authorised person. All the data is logged to to the file `database-groot.csv` and is emailed before the execution is stopped. 
 
-![All the components used](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/2020-04-14%2021.34.30.jpg)
-
 **Hardware Components:**
+
+| ![All the components used](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/2020-04-14%2021.34.30.jpg) |
+| --------------------------------------------------------------------------------------------------------------------- |
 
 1. Raspberry Pi
 2. Pi Camera
@@ -37,10 +43,12 @@ The device collects the sensor value from all the inputs and updates the row of 
 
 
 ## Connecting Raspberry Pi
- 
-| ![one](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/2020-04-14%2021.41.21.jpg)   | ![two](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/2020-04-14%2022.22.59.jpg)  |
-| --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| ![three](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/2020-04-14%2022.23.42.jpg) | ![four](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/2020-04-14%2022.24.12.jpg) |
+
+![circuit connections](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/circuit-connections.png alt ="circuit connections")
+
+| ![one](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/2020-04-14%2021.41.21.jpg)     | ![two](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/2020-04-14%2022.22.59.jpg)  | ![soil](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/2020-04-14%2022.24.35.jpg)  |
+| ----------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| ![mcp3008](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/2020-04-14%2022.22.20.jpg) | ![four](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/2020-04-14%2022.24.12.jpg) | ![final](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/2020-04-14%2022.20.43.jpg) |
 
 Login to Raspberry-pi using ssh or through monitor. If you want to learn how to set up your pi click [here](https://www.instructables.com/id/Set-Up-Raspberry-Pi-4-Through-Laptoppc-Using-Ether/).
 
@@ -53,7 +61,7 @@ Login to Raspberry-pi using ssh or through monitor. If you want to learn how to 
     git clone https://github.com/Ikarthikmb/gardener-groot
 
 
-## Installing the Libraries
+## [Installing the Libraries](#contents)
 
 1. Adafruit MCP3008
 
@@ -81,7 +89,9 @@ using `pip` install
 
     pip install secure-smtplib
 
-## The Code
+## [The Code](#contents)
+
+![](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/snap-code-run.png alt = "snapshot of the output")
 
 Now to run the code open the terminal go through the following steps:
 
