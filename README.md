@@ -2,15 +2,13 @@
 
 # Contents:
 
-- [Tracking Essential Features Affecting The Plants Using Raspberry-Pi](#tracking-essential-features-affecting-the-plants-using-raspberry-pi)
-- [Contents:](#contents)
-  - [Introduction](#introduction)
-  - [Connecting Raspberry Pi](#connecting-raspberry-pi)
-  - [Installing the Libraries](#installing-the-libraries)
-  - [The Code](#the-code)
-  - [Analysing Data](#analysing-data)
-  - [Conclusion](#conclusion)
-  - [Resources:](#resources)
+- [Introduction](#introduction)
+- [Connecting Raspberry Pi](#connecting-raspberry-pi)
+- [Installing the Libraries](#installing-the-libraries)
+- [The Code](#the-code)
+- [Analysing Data](#analysing-data)
+- [Conclusion](#conclusion)
+- [Resources:](#resources)
 
 ---
 
@@ -145,3 +143,6 @@ The final statement is that the location where I'm staying isn't suitable for an
 - [Measuring soil moisture using Raspberry Pi](https://www.instructables.com/id/Measuring-Soil-Moisture-Using-Raspberry-Pi/)
 - [How to Set Up the DHT11 Humidity Sensor on the Raspberry Pi](https://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-the-raspberry-pi/)
 - [Graph of Temperature, Humidity, LightVal and MoistureVal](https://docs.google.com/spreadsheets/d/e/2PACX-1vTuSa28HAoZzqSf02eFfmrphdf843vcm1suHe8Xjd6a1-kv2Clv6b9aIPoK7PJFDjSHAAzVVjkL23uN/pubchart?oid=1268827840&format=interactive)
+
+---
+
