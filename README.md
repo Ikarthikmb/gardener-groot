@@ -10,7 +10,7 @@
   - [The Code](#the-code)
   - [Analysing Data](#analysing-data)
   - [Conclusion](#conclusion)
-  - [Resources:](#resources)
+  - [Resources](#resources)
 
 ---
 
@@ -176,7 +176,7 @@ The final statement is that the location where I'm staying isn't suitable for an
 
 ---
 
-## Resources:
+## [Resources:](#contents)
 
 - [Setting up the Raspberry Pi 4](https://www.instructables.com/id/Set-Up-Raspberry-Pi-4-Through-Laptoppc-Using-Ether/)
 - [Wiring and working with MCP3008](https://www.instructables.com/id/Measuring-Soil-Moisture-Using-Raspberry-Pi/)
