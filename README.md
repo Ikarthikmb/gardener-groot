@@ -1,7 +1,5 @@
 # Tracking Essential Features Affecting The Plants Using Raspberry-Pi
 
---- 
-
 # Contents:
 
 - [Tracking Essential Features Affecting The Plants Using Raspberry-Pi](#tracking-essential-features-affecting-the-plants-using-raspberry-pi)
@@ -10,6 +8,8 @@
   - [Connecting Raspberry Pi](#connecting-raspberry-pi)
   - [Installing the Libraries](#installing-the-libraries)
   - [The Code](#the-code)
+  - [Analysing Data](#analysing-data)
+  - [Conclusion](#conclusion)
 
 ---
 
@@ -100,6 +100,34 @@ Now to run the code open the terminal go through the following steps:
     cd gardener-groot
     python grootv1.py
 
-![snapshot of the output](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/snap-code-run.png)
+|![output file 01](https://raw.githubusercontent.com/Ikarthikmb/gardener-groot/master/Log_Report_GG/Log%2019-04/images%2019-04/in_op_log_1904.bmp)|![output file 02](https://raw.githubusercontent.com/Ikarthikmb/gardener-groot/master/Log_Report_GG/Log%2019-04/images%2019-04/ls_op_log_1904.bmp)|
+|---|---|
+|Running the code file grootv1.py | End of the output |
+| | |
+| ![image capture 01](https://github.com/Ikarthikmb/gardener-groot/blob/master/Log_Report_GG/Log%2019-04/images%2019-04/image-Sun-Apr-19-101919-2020.png) | ![image capture 02](https://github.com/Ikarthikmb/gardener-groot/blob/master/Log_Report_GG/Log%2019-04/images%2019-04/image-Sun-Apr-19-110417-2020.png)|
+| Image showing a person touching the plant | Image captured when motion is been detected but not harming the plant |
+
+For detailed log for the day 19 April 2020 click [here](https://github.com/Ikarthikmb/gardener-groot/blob/master/Log_Report_GG/Log%2019-04/OP-grootv1.pdf).  
+
+## [Analysing Data](#contents)
+
+| ![The Overall Graph](https://github.com/Ikarthikmb/gardener-groot/blob/master/Log_Report_GG/Log%2019-04/images%2019-04/Temperature%2C%20Humidity%2C%20LightVal%20and%20MoistureVal.png) |
+|---|
+|A relation between Temperature, Humidity, LightVal and MoistureVal with respect to time |
+
+The detailed log of the readings from the Raspberry is sent to the respective email at the end of the code, also it is automatically sent to email for every one hour(Can be customised).
+
+Here in this stage one can apply programming knowledge to analyse and get the results like the waveform and grahs. To make it simpler I used google spreadsheets to analyse and depict a graph for the values obtained. You can take a look oh how the google spreadsheets have given such beautiful layouts.
+
+|![mvd](https://github.com/Ikarthikmb/gardener-groot/blob/master/Log_Report_GG/Log%2019-04/images%2019-04/MoistureVal%20vs.%20DateTime.png)| ![tvd](https://github.com/Ikarthikmb/gardener-groot/blob/master/Log_Report_GG/Log%2019-04/images%2019-04/Temperature%20vs.%20DateTime.png) |
+| --- | --- |
+|![hvd](https://github.com/Ikarthikmb/gardener-groot/blob/master/Log_Report_GG/Log%2019-04/images%2019-04/Humidity%20vs.%20DateTime.png)| ![lvd](https://github.com/Ikarthikmb/gardener-groot/blob/master/Log_Report_GG/Log%2019-04/images%2019-04/LightVal%20vs.%20DateTime.png)|
+
+
+## [Conclusion](#contents)
+
+After analysing the data it is observed that the moisture in the soil is perfectly alright, the sunlight is varying from high to low which means the light is not properly available to the plant. The temperature is too high for such a plant to survive which means I have to shift the location of the plant immediately to a better place. With the constant high temperature of 32 C the humidity has been decreasing slightly and reached a minimum of 41 percentage.
+
+The final statement is that the location where I'm staying isn't suitable for any plant to grow, infact for me too so, I'm leaving now in search for a better house where myself along with my pot can stay healthy.
 
 ---
