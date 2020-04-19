@@ -105,8 +105,6 @@ This library is for setting up the IC MCP3008.
 
 To install from the source on Github connect to a terminal on the Raspberry Pi and run the following commands:
 
-You should see the library install succeed and finish with a message similar to the following:
-
     sudo apt-get install build-essential python-dev python-smbus git
     cd ~
     git clone https://github.com/adafruit/Adafruit_Python_MCP3008.git
