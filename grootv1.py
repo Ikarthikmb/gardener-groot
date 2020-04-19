@@ -198,7 +198,7 @@ def sendmail(subject, file_name1, path_name, body_message):    # Sending the mai
     msg.attach(p)     # attach the instance 'p' to instance 'msg'
     s = smtplib.SMTP('smtp.gmail.com', 587)     # creates SMTP session 
     s.starttls()     # start TLS for security 
-    s.login(fromaddr, "anemone20")   # Authentication 
+    s.login(fromaddr, "password")   # Authentication 
     text = msg.as_string()  # Converts the Multipart msg into a string
     s.sendmail(fromaddr, toaddr, text)   # sending the mail 
     print("[INFO] Mail Sent\n[MSG] Mailed to {}\n[MSG] Subject: {}" .format(toaddr,subject))
