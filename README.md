@@ -10,6 +10,7 @@
   - [The Code](#the-code)
   - [Analysing Data](#analysing-data)
   - [Conclusion](#conclusion)
+  - [Resources:](#resources)
 
 ---
 
@@ -20,7 +21,7 @@
 
 The plants are like all the other living organisms, they take care of themselves and sometimes dry while unable to help themselves. Someone external has to look after those like a gardener does. This project is built using Raspberry Pi.
 
-The device collects the sensor value from all the inputs and updates the row of  `database-groot.csv` file for every 30 seconds. Alternatively, runs the motions detection code for every 2 seconds, any motion identified will be emailed to the authorised person. All the data is logged to to the file `database-groot.csv` and is emailed before the execution is stopped. 
+The device collects the sensor value from all the inputs and updates the row of  `database-groot.csv` file for every 30 seconds. Alternatively, runs the motions detection code for every 2 seconds, any motion identified will be emailed to the authorised person. All the data is logged to to the file named `database-groot.csv` and is emailed for every hour and also when the execution is stopped. 
 
 **Hardware Components:**
 
@@ -35,7 +36,7 @@ The device collects the sensor value from all the inputs and updates the row of 
 6. DHT11 Temperature and Humidity Sensor
 7. Breadboard
 8. MCP3008
-9. LED's (Red, Blue used here)
+9. LED's (Red, Blue are used here)
 10. Jumper wires
 
 **Software and Applications:**
@@ -97,14 +98,15 @@ using `pip` install
 
 | ![output file 01](https://raw.githubusercontent.com/Ikarthikmb/gardener-groot/master/Log_Report_GG/Log%2019-04/images%2019-04/in_op_log_1904.bmp) | ![output file 02](https://raw.githubusercontent.com/Ikarthikmb/gardener-groot/master/Log_Report_GG/Log%2019-04/images%2019-04/ls_op_log_1904.bmp) |
 | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Running the code file grootv1.py                                                                                                                  | End of the output                                                                                                                                 |
 
 Now to run the code open the terminal go through the following steps:
 
     cd gardener-groot
     python grootv1.py
 
+You shoud abe able to see the code started, displaying the readings of the sensors. Try touching to plant to test whether the device is cable to capture it. The one problem we faced here is that the the device captures the image for the detected motion even though the plant is not harmed externally.
 
-| Running the code file grootv1.py                                                                                                                        | End of the output                                                                                                                                       |
 | ![image capture 01](https://github.com/Ikarthikmb/gardener-groot/blob/master/Log_Report_GG/Log%2019-04/images%2019-04/image-Sun-Apr-19-101919-2020.png) | ![image capture 02](https://github.com/Ikarthikmb/gardener-groot/blob/master/Log_Report_GG/Log%2019-04/images%2019-04/image-Sun-Apr-19-110417-2020.png) |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Image showing a person touching the plant                                                                                                               | Image captured when motion is been detected but not harming the plant                                                                                   |
@@ -134,3 +136,12 @@ After analysing the data it is observed that the moisture in the soil is perfect
 The final statement is that the location where I'm staying isn't suitable for any plant to grow, infact for me too so, I'm leaving now in search for a better house where myself along with my pot can stay healthy.
 
 ---
+
+## Resources: 
+
+- [Setting up the Raspberry Pi 4](https://www.instructables.com/id/Set-Up-Raspberry-Pi-4-Through-Laptoppc-Using-Ether/)
+- [Wiring and working with MCP3008](https://www.instructables.com/id/Measuring-Soil-Moisture-Using-Raspberry-Pi/)
+- [Connecting the Pi camera to Raspberry Pi](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera)
+- [Measuring soil moisture using Raspberry Pi](https://www.instructables.com/id/Measuring-Soil-Moisture-Using-Raspberry-Pi/)
+- [How to Set Up the DHT11 Humidity Sensor on the Raspberry Pi](https://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-the-raspberry-pi/)
+- [Graph of Temperature, Humidity, LightVal and MoistureVal](https://docs.google.com/spreadsheets/d/e/2PACX-1vTuSa28HAoZzqSf02eFfmrphdf843vcm1suHe8Xjd6a1-kv2Clv6b9aIPoK7PJFDjSHAAzVVjkL23uN/pubchart?oid=1268827840&format=interactive)
