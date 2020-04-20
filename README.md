@@ -20,7 +20,7 @@
 | --------------------------------------------------------------------------------------------------- |
 
 
-The plants are like all the other living organisms, they take care of themselves and sometimes dry while unable to help themselves. Someone external has to look after those like a gardener does. This project is built using Raspberry Pi.
+The plants are like all the other living organisms, they take care of themselves and sometimes dry while unable to help themselves. Someone external has to look after those like a gardener does. This project is built using Raspberry Pi which acts as a Gardener.
 
 The device collects the sensor value from all the inputs and updates the row of `database-groot.csv` file for every 30 seconds. Alternatively, runs the motions detection code for every 2 seconds, any motion identified will be emailed to the authorised person. All the data is logged to to the file named `database-groot.csv` and is emailed for every hour and also when the execution is stopped.
 
