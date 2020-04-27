@@ -1,5 +1,7 @@
 # Tracking Essential Features Affecting The Plants Using Raspberry-Pi
 
+[![Demo on Gardener-Groot | A Raspberry Pi project](https://raw.githubusercontent.com/Ikarthikmb/gardener-groot/master/images/9233DA4D-734F-4920-8FCB-B0603B96522E.PNG)](https://youtu.be/3N6vLrjOHp0 "Click to Play")
+
 # Contents:
 
 - [Tracking Essential Features Affecting The Plants Using Raspberry-Pi](#tracking-essential-features-affecting-the-plants-using-raspberry-pi)
