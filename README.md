@@ -4,15 +4,13 @@
 
 # Contents:
 
-- [Tracking Essential Features Affecting The Plants Using Raspberry-Pi](#tracking-essential-features-affecting-the-plants-using-raspberry-pi)
-- [Contents:](#contents)
-  - [Introduction](#introduction)
-  - [Connecting Raspberry Pi](#connecting-raspberry-pi)
-  - [Installing the Libraries](#installing-the-libraries)
-  - [The Code](#the-code)
-  - [Analysing Data](#analysing-data)
-  - [Conclusion](#conclusion)
-  - [Resources](#resources)
+- [Introduction](#introduction)
+- [Connecting Raspberry Pi](#connecting-raspberry-pi)
+- [Installing the Libraries](#installing-the-libraries)
+- [The Code](#the-code)
+- [Analysing Data](#analysing-data)
+- [Conclusion](#conclusion)
+- [Resources](#resources)
 
 ---
 
