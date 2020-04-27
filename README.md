@@ -1,6 +1,6 @@
 # Tracking Essential Features Affecting The Plants Using Raspberry-Pi
 
-[![Demo on Gardener-Groot | A Raspberry Pi project](https://raw.githubusercontent.com/Ikarthikmb/gardener-groot/master/images/9233DA4D-734F-4920-8FCB-B0603B96522E.PNG)](https://youtu.be/3N6vLrjOHp0 "Click to Play")
+[![Demo on Gardener-Groot | A Raspberry Pi project](https://raw.githubusercontent.com/Ikarthikmb/gardener-groot/master/images/Screenshot_2020-04-28%20Electro%20Knights.png)](https://youtu.be/3N6vLrjOHp0 "Click to Play")
 
 # Contents:
 
@@ -178,11 +178,13 @@ The final statement is that the location where I'm staying isn't suitable for an
 
 ## [Resources:](#contents)
 
+- [Website - Gardener Groot](https://sites.google.com/view/gardenergroot/home)
 - [Setting up the Raspberry Pi 4](https://www.instructables.com/id/Set-Up-Raspberry-Pi-4-Through-Laptoppc-Using-Ether/)
 - [Wiring and working with MCP3008](https://www.instructables.com/id/Measuring-Soil-Moisture-Using-Raspberry-Pi/)
 - [Connecting the Pi camera to Raspberry Pi](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera)
 - [Measuring soil moisture using Raspberry Pi](https://www.instructables.com/id/Measuring-Soil-Moisture-Using-Raspberry-Pi/)
 - [How to Set Up the DHT11 Humidity Sensor on the Raspberry Pi](https://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-the-raspberry-pi/)
 - [Graph of Temperature, Humidity, LightVal and MoistureVal](https://docs.google.com/spreadsheets/d/e/2PACX-1vTuSa28HAoZzqSf02eFfmrphdf843vcm1suHe8Xjd6a1-kv2Clv6b9aIPoK7PJFDjSHAAzVVjkL23uN/pubchart?oid=1268827840&format=interactive)
+- [Youtube - Demo on Gardener-Groot | A Raspberry Pi project](https://youtu.be/3N6vLrjOHp0)
 
 ---
