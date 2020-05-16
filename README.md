@@ -1,4 +1,4 @@
-# Tracking Fundamental Features Affecting The Plants Using Raspberry-Pi
+# Logging Fundamental Parameters of Plants with Raspberry-Pi 
 
 [![Demo on Gardener-Groot | A Raspberry Pi project](https://raw.githubusercontent.com/Ikarthikmb/gardener-groot/master/images/Screenshot_2020-04-28%20Electro%20Knights.png)](https://youtu.be/3N6vLrjOHp0 "Click to Play")
 
