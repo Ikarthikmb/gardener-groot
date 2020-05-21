@@ -16,7 +16,7 @@
 
 ## [Introduction](#contents)
 
-| ![three](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/2020-04-14%2022.23.42.jpg) |
+| ![three](https://raw.githubusercontent.com/Ikarthikmb/gardener-groot/master/images/2020-04-14%2022.23.42.jpg) |
 | --------------------------------------------------------------------------------------------------- |
 
 
@@ -26,7 +26,7 @@ The device collects the sensor value from all the inputs and updates the row of 
 
 **Hardware Components:**
 
-| ![All the components used](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/2020-04-14%2021.34.30.jpg) |
+| ![All the components used](https://raw.githubusercontent.com/Ikarthikmb/gardener-groot/master/images/2020-04-14%2021.34.30.jpg) |
 | --------------------------------------------------------------------------------------------------------------------- |
 
 
@@ -49,7 +49,7 @@ The device collects the sensor value from all the inputs and updates the row of 
 
 ## [Connecting Raspberry Pi](#contents)
 
-| ![circuit connections](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/circuit-connections.png) |
+| ![circuit connections](https://raw.githubusercontent.com/Ikarthikmb/gardener-groot/master/images/circuit-connections.png) |
 | --------------------------------------------------------------------------------------------------------------- |
 
 
@@ -81,9 +81,9 @@ The device collects the sensor value from all the inputs and updates the row of 
   - MCP3008 VREFF to +3V
   - MCP3008 VCC to +3
 
-| ![one](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/2020-04-14%2021.41.21.jpg)     | ![two](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/2020-04-14%2022.22.59.jpg)  | ![soil](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/2020-04-14%2022.24.35.jpg)  |
+| ![one](https://raw.githubusercontent.com/Ikarthikmb/gardener-groot/master/images/2020-04-14%2021.41.21.jpg)     | ![two](https://raw.githubusercontent.com/Ikarthikmb/gardener-groot/master/images/2020-04-14%2022.22.59.jpg)  | ![soil](https://raw.githubusercontent.com/Ikarthikmb/gardener-groot/master/images/2020-04-14%2022.24.35.jpg)  |
 | ----------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![mcp3008](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/2020-04-14%2022.22.20.jpg) | ![four](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/2020-04-14%2022.24.12.jpg) | ![final](https://github.com/Ikarthikmb/gardener-groot/blob/master/images/2020-04-14%2022.20.43.jpg) |
+| ![mcp3008](https://raw.githubusercontent.com/Ikarthikmb/gardener-groot/master/images/2020-04-14%2022.22.20.jpg) | ![four](https://raw.githubusercontent.com/Ikarthikmb/gardener-groot/master/images/2020-04-14%2022.24.12.jpg) | ![final](https://raw.githubusercontent.com/Ikarthikmb/gardener-groot/master/images/2020-04-14%2022.20.43.jpg) |
 
 Make the necessary connections from the circuit diagram, power up the pi. Here I've connected the raspberry through wi-fi network and opened it through VNC-Viewer.
 
@@ -146,7 +146,7 @@ Now to run the code open the terminal go through the following steps:
 
 You shoud abe able to see the code started, displaying the readings of the sensors. Try touching to plant to test whether the device is cable to capture it. The one problem we faced here is that the the device captures the image for the detected motion even though the plant is not harmed externally.
 
-| ![image capture 01](https://github.com/Ikarthikmb/gardener-groot/blob/master/Log_Report_GG/Log%2019-04/images%2019-04/image-Sun-Apr-19-101919-2020.png) | ![image capture 02](https://github.com/Ikarthikmb/gardener-groot/blob/master/Log_Report_GG/Log%2019-04/images%2019-04/image-Sun-Apr-19-110417-2020.png) |
+| ![image capture 01](https://raw.githubusercontent.com/Ikarthikmb/gardener-groot/master/Log_Report_GG/Log%2019-04/images%2019-04/image-Sun-Apr-19-101919-2020.png) | ![image capture 02](https://raw.githubusercontent.com/Ikarthikmb/gardener-groot/master/Log_Report_GG/Log%2019-04/images%2019-04/image-Sun-Apr-19-110417-2020.png) |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Image showing a person touching the plant                                                                                                               | Image captured when motion is been detected but not harming the plant                                                                                   |
 
@@ -154,7 +154,7 @@ For detailed log for the day 19 April 2020 click [here](https://github.com/Ikart
 
 ## [Analysing Data](#contents)
 
-| ![The Overall Graph](https://github.com/Ikarthikmb/gardener-groot/blob/master/Log_Report_GG/Log%2019-04/images%2019-04/Temperature%2C%20Humidity%2C%20LightVal%20and%20MoistureVal.png) |
+| ![The Overall Graph](https://raw.githubusercontent.com/Ikarthikmb/gardener-groot/master/Log_Report_GG/Log%2019-04/images%2019-04/Temperature%2C%20Humidity%2C%20LightVal%20and%20MoistureVal.png) |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | A relation between Temperature, Humidity, LightVal and MoistureVal with respect to time                                                                                                 |
 
@@ -162,9 +162,9 @@ The detailed log of the readings from the Raspberry is sent to the respective em
 
 Here in this stage one can apply programming knowledge to _analyse_ and get the results like the waveform and grahs. To make it simpler I used google spreadsheets to analyse and depict a graph for the values obtained. You can take a look oh how the google spreadsheets have given such beautiful layouts.
 
-| ![mvd](https://github.com/Ikarthikmb/gardener-groot/blob/master/Log_Report_GG/Log%2019-04/images%2019-04/MoistureVal%20vs.%20DateTime.png) | ![tvd](https://github.com/Ikarthikmb/gardener-groot/blob/master/Log_Report_GG/Log%2019-04/images%2019-04/Temperature%20vs.%20DateTime.png) |
+| ![mvd](https://raw.githubusercontent.com/Ikarthikmb/gardener-groot/master/Log_Report_GG/Log%2019-04/images%2019-04/MoistureVal%20vs.%20DateTime.png) | ![tvd](https://raw.githubusercontent.com/Ikarthikmb/gardener-groot/master/Log_Report_GG/Log%2019-04/images%2019-04/Temperature%20vs.%20DateTime.png) |
 | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![hvd](https://github.com/Ikarthikmb/gardener-groot/blob/master/Log_Report_GG/Log%2019-04/images%2019-04/Humidity%20vs.%20DateTime.png)    | ![lvd](https://github.com/Ikarthikmb/gardener-groot/blob/master/Log_Report_GG/Log%2019-04/images%2019-04/LightVal%20vs.%20DateTime.png)    |
+| ![hvd](https://raw.githubusercontent.com/Ikarthikmb/gardener-groot/master/Log_Report_GG/Log%2019-04/images%2019-04/Humidity%20vs.%20DateTime.png)    | ![lvd](https://raw.githubusercontent.com/Ikarthikmb/gardener-groot/master/Log_Report_GG/Log%2019-04/images%2019-04/LightVal%20vs.%20DateTime.png)    |
 
 ## [Conclusion](#contents)
 
